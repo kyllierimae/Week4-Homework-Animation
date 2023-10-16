@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+.pancake-heading {
+    font-family: 'Lobster', cursive;
+    color: red; 
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    animation: pancake;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes pancake {
+    0% {top: -250px}
+    100% {top: 25px}
+}
+.ingredients {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color:blue;
+    position: relative;
+    animation: ingredients;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ingredients {
+    0% {top: -250px}
+    100% {top: 0px}
+    
+}
+.ingredients-table {
+    border: 1px solid black;
+    margin: 0 auto;
+    
+}
+
+
+.instructions {
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+    animation: instructions;
+    animation-duration: 5s;
+}
+@keyframes instructions {
+    0% {left: -5000px;}
+    50% {left: 500px;}
+    100% {left: 0px}
+}
+
+.instructions ol{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid red;
+    color: green;
+
+}
+
+.picture {
+    opacity: 0%;
+    text-align: center;
+    position: relative;
+    animation: picture;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes picture {
+    0% {opacity 0;}
+    100% {opacity: 1;}
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: red;
+    font-size: 2rem;
+}
